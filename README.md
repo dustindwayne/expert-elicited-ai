@@ -1,4 +1,7 @@
 # Expert-Elicited AI
+*AI systems built from structured knowledge elicited from domain experts.*
+
+
 
 ## Overview
 Most modern AI systems rely heavily on massive unstructured datasets gathered from broad corpus scraping. This project explores an alternative approach: AI systems that learn structured, inspectable domain knowledge directly from human experts through guided knowledge elicitation.
