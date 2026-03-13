@@ -1,7 +1,6 @@
 /**
  * Reasoning Engine
  *
- * Processes domain graphs and produces conclusions.
  * Purpose:
  * - Evaluate domain graphs and rule sets.
  * - Produce ranked conclusions with explanation traces.

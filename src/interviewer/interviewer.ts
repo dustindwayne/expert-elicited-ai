@@ -1,7 +1,6 @@
 /**
  * AI Knowledge Interviewer
  *
- * Handles AI-led interviews with domain experts.
  * Purpose:
  * - Conduct guided interviews with domain experts.
  * - Capture structured statements about concepts, relationships, rules, and examples.

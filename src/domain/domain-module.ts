@@ -1,7 +1,6 @@
 /**
  * Domain Module Definition
  *
- * Defines the structure of a domain knowledge module.
  * Purpose:
  * - Define the shape of a domain knowledge package.
  * - Bundle concepts, relationships, and optional rules.

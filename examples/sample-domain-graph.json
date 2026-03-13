@@ -1,10 +1,5 @@
 {
   "domain": "plants",
-  "confidence_scale": {
-    "min": 0,
-    "max": 1,
-    "description": "Confidence values represent expert-assessed support for each relationship in context."
-  },
   "concepts": [
     { "id": "yellow_leaves", "label": "yellow leaves" },
     { "id": "nitrogen_deficiency", "label": "nitrogen deficiency" },

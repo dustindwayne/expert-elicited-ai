@@ -1,40 +1,26 @@
 # Knowledge Elicitation Process
 
-This document outlines how an AI interviewer can extract high-quality, structured knowledge from domain experts.
+This document describes how an AI interviewer can extract domain knowledge from human experts in a structured form.
 
-## Detailed Pipeline
+## Step-by-Step Process
 
-### Step 1 – Identify domain concepts
-Define the core entities, conditions, and terminology experts use when describing decisions.
+1. **Identify domain concepts**  
+   Establish key entities, terms, and observable conditions used by experts.
 
-### Step 2 – Extract relationships
-Capture causal, correlational, hierarchical, and temporal links between concepts.
+2. **Extract relationships**  
+   Capture causal, correlational, hierarchical, and temporal links between concepts.
 
-### Step 3 – Capture reasoning rules
-Document if-then patterns, thresholds, and decision heuristics used in practice.
+3. **Gather diagnostic rules**  
+   Elicit if-then style reasoning patterns and threshold-based heuristics.
 
-### Step 4 – Gather examples and counterexamples
-Collect representative cases where rules apply, and explicit cases where they fail.
+4. **Capture examples and counterexamples**  
+   Request representative cases where a rule applies and where it fails.
 
-### Step 5 – Assign confidence scores
-Attach expert-provided confidence values and uncertainty notes to each statement.
+5. **Assign confidence scores**  
+   Ask experts to estimate confidence for statements and note uncertainty conditions.
 
-### Step 6 – Track expert provenance
-Record contributor identity (or pseudonymous ID), timestamp, domain context, and evidence source.
-
-## Expert Interview Protocol
-A practical protocol for AI-led elicitation sessions:
-
-1. Start with scope and terminology alignment.
-2. Move from broad concepts to specific diagnostic logic.
-3. Probe for disambiguating evidence and failure modes.
-4. Request confidence and context qualifiers for each statement.
-5. Summarize extracted knowledge back to the expert for confirmation.
-
-### Example AI Prompts
-- "What factors influence this diagnosis?"
-- "What evidence distinguishes these cases?"
-- "What exceptions invalidate this rule?"
+6. **Track provenance of expert contributions**  
+   Record contributor identity (or pseudonymous ID), timestamp, and context of each statement.
 
 ## Sample Interview Transcript
 
