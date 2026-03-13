@@ -18,7 +18,7 @@ Brute-force training approaches have produced powerful general models, but they 
 
 This proposal investigates a complementary architecture focused on explicit domain models and expert-grounded reasoning.
 
-## Core Idea
+## Core Architecture
 ```text
 Domain Experts
 ↓
@@ -55,6 +55,10 @@ Reasoning components may combine multiple methods, including:
 - not replacing large language models
 - not claiming universal intelligence
 - not eliminating bias entirely
+
+## Why This Matters
+
+Many domain problems require reasoning that is transparent, auditable, and directly grounded in expert knowledge. This architecture explores whether structured expert knowledge combined with modern AI interfaces can provide more interpretable and maintainable domain intelligence systems.
 
 ## Repository Layout
 - `docs/`: proposal documentation, architecture notes, elicitation workflow, consensus modeling, and limitations.
