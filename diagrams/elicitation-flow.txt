@@ -1,0 +1,11 @@
+Domain Experts
+↓
+AI Knowledge Interviewer
+↓
+Structured Knowledge Extraction
+↓
+Domain Knowledge Graph
+↓
+Reasoning Engine
+↓
+Natural Language Interface

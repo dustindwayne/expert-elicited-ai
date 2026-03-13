@@ -1,0 +1,11 @@
+User Question
+↓
+Intent Parser
+↓
+Domain Knowledge Engine
+↓
+Domain Graph + Rules
+↓
+Reasoning Engine
+↓
+Natural Language Response
