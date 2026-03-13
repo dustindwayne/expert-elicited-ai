@@ -1,7 +1,6 @@
 /**
  * Domain Loader
  *
- * Loads domain modules dynamically.
  * Purpose:
  * - Load domain modules dynamically at runtime.
  * - Validate module schema compatibility.

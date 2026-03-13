@@ -1,9 +1,11 @@
-Expert
+Domain Experts
 ↓
-AI Interviewer
+AI Knowledge Interviewer
 ↓
-Knowledge Extraction
+Structured Knowledge Extraction
 ↓
-Concept Graph
+Domain Knowledge Graph
 ↓
-Reasoning System
+Reasoning Engine
+↓
+Natural Language Interface

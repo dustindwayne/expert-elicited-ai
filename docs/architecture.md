@@ -1,49 +1,39 @@
 # Architecture Overview
 
-This document describes the proposed system architecture for expert-elicited AI. The design focuses on structured knowledge acquisition, explicit representation, and explainable inference.
+This project defines a modular architecture for expert-elicited domain intelligence.
 
-## System Components
+## Components
 
-### 1. Expert Interviewer
-Coordinates AI-led interviews with domain experts. It asks scoped questions, requests clarifications, and captures uncertainty and exceptions.
+### 1. AI Knowledge Interviewer
+Orchestrates structured interviews with domain experts, asks clarifying questions, and collects candidate statements.
 
-### 2. Knowledge Parser
-Converts interview responses into normalized artifacts such as concepts, relationships, and rules with confidence and provenance metadata.
+### 2. Structured Extraction Layer
+Transforms interview transcripts into machine-readable artifacts:
+- concepts
+- relationships
+- rules
+- examples/counterexamples
+- confidence and provenance metadata
 
 ### 3. Domain Knowledge Graph
-Stores domain concepts and their typed relationships in a machine-readable form that can be versioned, reviewed, and updated incrementally.
+Stores structured knowledge as entities and edges with typed relationships and weighted confidence.
 
 ### 4. Reasoning Engine
-Runs inference over graph and rule data to generate candidate conclusions, confidence scores, and rationale traces.
+Evaluates graph and rule data to generate ranked conclusions and explanation paths.
 
 ### 5. Natural Language Interface
-Translates user questions into structured reasoning inputs and renders understandable responses grounded in the domain model.
+Accepts user questions and returns concise responses grounded in structured reasoning outputs.
 
 ## Data Flow
-```text
-User Question
-↓
-Language Parsing
-↓
-Domain Knowledge Graph
-↓
-Reasoning Engine
-↓
-Response Generation
-```
-
-## Hybrid Reasoning Options
-The architecture is designed to support multiple reasoning strategies depending on domain needs:
-
-- rule systems
-- probabilistic reasoning
-- example-based reasoning
-- small domain models
-
-In practice, implementations may combine these methods to balance interpretability, coverage, and uncertainty handling.
+1. Experts provide knowledge via interviews.
+2. Extractor converts responses into structured statements.
+3. Statements are persisted in domain modules.
+4. Runtime loader assembles active domain modules.
+5. Reasoning engine computes candidate conclusions.
+6. NL interface renders user-readable answers with rationale.
 
 ## Design Priorities
-- transparent reasoning paths
-- provenance tracking for all expert assertions
-- incremental domain updates without full retraining
-- support for multi-expert disagreement
+- transparency of reasoning
+- provenance tracking
+- incremental updates
+- multi-expert disagreement support
